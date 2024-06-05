@@ -1,0 +1,25 @@
+{
+  "name": "cities-in-the-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiselaHurtado/Cities-in-the-world.git"
+  },
+  "author": "Gisela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiselaHurtado/Cities-in-the-world/issues"
+  },
+  "homepage": "https://github.com/GiselaHurtado/Cities-in-the-world#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.4"
+  }
+}
