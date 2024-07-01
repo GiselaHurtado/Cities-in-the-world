@@ -1,0 +1,18 @@
+.text-center.mb-4 {
+    height: 500px; /* Ajusta la altura según tu preferencia */
+    width: 1400px;
+    margin-left: 0px;
+    text-align: center;
+    color: black; /* Ajusta el color del texto según el contraste de la imagen */
+    font-size: 3em; /* Ajusta el tamaño de la fuente */
+    display: flex; /* Permite centrar el texto verticalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    
+}
+
+
+h2 #restaurante-title{
+    padding: 20px;
+    margin-bottom: 0.5rem; /* Adjust margin as needed */
+  }
