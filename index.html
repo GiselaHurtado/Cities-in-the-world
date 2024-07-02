@@ -1,187 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <title>Ciudades del mundo</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" width="150px"><strong>Cities in the World</strong></a>
-    
-          <nav class="ms-auto d-flex">  <ul class="nav nav-pills">  <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" width="150px"><strong>Cities in the World</strong></a>
+
+      <nav class="ms-auto d-flex">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <main class="container mt-4">
     <section class="mb-4">
-        <h2 class="text-center mb-4" style="background-image: url('./public/assets/img/patagonia.jpg'); background-size: cover; background-position: center;">The most Popular City</h2>
-        </div>
+      <h2 class="text-center mb-4"
+        style="background-image: url('./public/assets/img/patagonia.jpg'); background-size: cover; background-position: center;">
+        The most Popular City</h2>
+      </div>
 
-        <section class="mb-4">
-            <div class="row">
-              <div class="col-md-4">
-                <h3 class="font-weight-bold mb-3">Ranking - Más visitada</h3>
-          
-                <ul class="list-group list-group-flush sm">  <li class="list-group-item">
-                    <span class="badge bg-primary text-light">1</span>
-                    <h5 class="mb-0">Nombre de la ciudad</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </li>
-                  <li class="list-group-item">
-                    <span class="badge bg-primary text-light">2</span>
-                    <h5 class="mb-0">Nombre de la ciudad</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </li>
-                  <li class="list-group-item">
-                    <span class="badge bg-primary text-light">3</span>
-                    <h5 class="mb-0">Nombre de la ciudad</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </li>
-                  <li class="list-group-item">
-                    <span class="badge bg-primary text-light">4</span>
-                    <h5 class="mb-0">Nombre de la ciudad</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </li>
-                </ul>
+      <section class="mb-4">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="font-weight-bold mb-3">Ranking - Most Visited</h3>
+
+            <ul class="list-group list-group-flush sm">
+              <li class="list-group-item">
+                <span class="badge bg-primary text-light">1</span>
+                <h5 class="mb-0">Paris, France</h5>
+                <p class="text-muted">Explore the City of Lights, where iconic landmarks...</p>
+              </li>
+              <li class="list-group-item">
+                <span class="badge bg-primary text-light">2</span>
+                <h5 class="mb-0">Dubai, United Arab Emirates</h5>
+                <p class="text-muted">Witness a dazzling desert metropolis. Soar high, explore...</p>
+              </li>
+              <li class="list-group-item">
+                <span class="badge bg-primary text-light">3</span>
+                <h5 class="mb-0">Madrid, Spain</h5>
+                <p class="text-muted">Immerse yourself in Spain's vibrant capital. Savor tapas...</p>
+              </li>
+              <li class="list-group-item">
+                <span class="badge bg-primary text-light">4</span>
+                <h5 class="mb-0">Tokyo, Japan</h5>
+                <p class="text-muted">Discover a blend of ancient and modern. Explore serene...</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-8">
+            <div class="row row-cols-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/paris.jpg" class="card-img-top img-fluid" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Paris: </h5>
+                    <p class="card-text text-justify">Explore the City of Lights, where iconic landmarks whisper romance and museums brim with treasures.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-8">
-                <div class="row row-cols-3 g-4">
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="./public/assets/img/patagonia.jpg" class="card-img-top" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
-                    </div>
-                    </div>
-                  </div>
-          </section>
-    </section>
-
-    <section>
-        <section>
-            <div class="container-restaurante"> 
-              <h2 id="restaurante-title" class="text-center mb-3.5">Restaurante más popular</h2>
-              <div class="row row-cols-1 row-cols-md-5 g-3 justify-content-center">
-                <div class="col">
-                  <div class="card rounded mb-4">
-                    <img src="https://picsum.photos/200" class="card-img-top rounded-circle" alt="Mountain View">
-                    <div class="card-body">
-                      <h5 class="card-title">Mountain View</h5>
-                      <p class="card-text">A beautiful mountain landscape.</p>
-                    </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/dubai.jpeg" class="card-img-top img-fluid" alt="Card image cap" style="width: 300px; height: 180px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Dubai:</h5>
+                    <p class="card-text text-justify">Witness a dazzling desert metropolis. Soar high, explore bustling souks, or bask on pristine beaches.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card rounded mb-4">
-                    <img src="https://picsum.photos/200" class="card-img-top rounded-circle" alt="Forest Trail">
-                    <div class="card-body">
-                      <h5 class="card-title">Forest Trail</h5>
-                      <p class="card-text">A serene walk through the woods.</p>
-                    </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/madrid.jpeg" class="card-img-top img-fluid" alt="Card image cap" style="width: 300px; height: 180px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Madrid: </h5>
+                    <p class="card-text text-justify">Immerse yourself in Spain's vibrant capital. Savor tapas, admire masterpieces, or cheer at a world-class game.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card rounded mb-4">
-                    <img src="https://picsum.photos/200" class="card-img-top rounded-circle" alt="Ocean View">
-                    <div class="card-body">
-                      <h5 class="card-title">Ocean View</h5>
-                      <p class="card-text">Relaxing by the calming waves.</p>
-                    </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/tokio.jpeg" class="card-img-top img-fluid" alt="Card image cap" style="width: 300px; height: 180px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Tokyo:</h5>
+                    <p class="card-text text-justify">Discover a blend of ancient and modern. Explore serene temples, indulge in sushi, and experience Tokyo's nightlife.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
                   </div>
                 </div>
-             
-                <div class="col">
-                  <div class="card rounded mb-4">
-                    <img src="https://picsum.photos/200" class="card-img-top rounded-circle" alt="City Lights">
-                    <div class="card-body">
-                      <h5 class="card-title">City Lights</h5>
-                      <p class="card-text">The vibrant life of the city.</p>
-                    </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/amsterdam.jpeg" class="card-img-top img-fluid" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Amsterdam:</h5>
+                    <p class="card-text text-justify">Wander charming canals lined with houses and cafes. Explore renowned museums or cycle through the Dutch countryside.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
                   </div>
                 </div>
-               
-                <div class="col">
-                  <div class="card rounded mb-4">
-                    <img src="https://picsum.photos/200" class="card-img-top rounded-circle" alt="Sunset Beach">
-                    <div class="card-body">
-                      <h5 class="card-title">Sunset Beach</h5>
-                      <p class="card-text">A stunning sunset by the beach.</p>
-                    </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./public/assets/img/berlin.jpeg" class="card-img-top img-fluid" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Berlin:</h5>
+                    <p class="card-text text-justify">Immerse yourself in a city rich in history and art. Visit iconic landmarks, explore remnants of the Berlin Wall.</p>
+                    <a href="#" class="btn btn-primary btn-sm position-absolute bottom-0 end-0">Ver más...</a>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
           
+    <section>
+      <section>
+        <div class="container-restaurante">
+          <h2 id="restaurante-title" class="text-center mb-3.5" style="padding:20px;">Most Popular Restaurant:</h2>
+          <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+            <div class="col">
+              <div class="card rounded mb-4">
+                <img src="./public/assets/img/perucomida.jpeg" class="card-img-top rounded-circle" alt="Mountain View">
+                <div class="card-body">
+                  <h5 class="card-title">Central (Perú):</h5>
+                  <p class="card-text">Innovative, Peruvian, Tasty</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded mb-4">
+                <img src="./public/assets/img/mexicocomida.jpeg" class="card-img-top rounded-circle" alt="Forest Trail">
+                <div class="card-body">
+                  <h5 class="card-title">Quintonil (Mexico):</h5>
+                  <p class="card-text">Mexican, Modern, Seasonal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card rounded mb-4">
+                <img src="./public/assets/img/eeuucomida.jpeg" class="card-img-top rounded-circle" alt="Ocean View">
+                <div class="card-body">
+                  <h5 class="card-title">Le Bernardin (EEUU):</h5>
+                  <p class="card-text"> Seafood, Fine Dining.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded mb-4">
+                <img src="./public/assets/img/peru2.jpeg" class="card-img-top rounded-circle" alt="City Lights">
+                <div class="card-body">
+                  <h5 class="card-title">Maido (Perú):</h5>
+                  <p class="card-text"> Peruvian-Japanese, Fusion.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded mb-4">
+                <img src="./public/assets/img/lido84.jpeg" class="card-img-top rounded-circle" alt="Sunset Beach">
+                <div class="card-body">
+                  <h5 class="card-title">Lido 84 (Italy):</h5>
+                  <p class="card-text"> Lakefront, Italian, Elegant.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
   </main>
 
-  <footer class="mt-4 text-center">
-    <p>&copy; 2021 Company, Inc</p>
-</footer>
+  <footer>
+    <div class="row mt-4">
+      <div class="col-md-6 d-flex align-items-center">
+        <img style="margin-left: 30px;" src="./public/assets/img/airplane.png" alt="icons" height="50px">&copy; 2024 Travel Company, Inc</div>
+      <div class="col-md-6 d-flex justify-content-end align-items-center">
+        <img src="./public/assets/img/iconss.png" alt="icons" height="60px">
+      </div>
+    </div>
+  </footer>
+  
